@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:orientation="vertical"
+    tools:context=".CharactersActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_language_firstChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_one"
+                android:textColor="#795548"
+                tools:ignore="SpeakableTextPresentCheck,VisualLintButtonSize" />
+
+            <Button
+                android:id="@+id/button_language_secondChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="@string/button_placeholderText_alphabet_two"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thirdChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_three"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_forthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_four"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_fifthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_five"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_sixthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_six"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_seventhChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_seven"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_eighthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_eight"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_ninthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_nine"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_tenthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_ten"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_eleventhChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_eleven"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_twelvthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_twelve"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thirteenthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_thirteen"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_fourteenthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_fourteen"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_fifteenthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_fifteen"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_sixteenthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_sixteen"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_seventeenthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_seventeen"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_eighteenthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_eighteen"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_nineteenthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_nineteen"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_twentiethChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_twenty"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_twentyfirst_Char"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_twentyone"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_twentysecond_Char"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_twentytwo"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_twentythird_Char"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_twentythree"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_twentyfourth_Char"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_twentyfour"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_twentyfifthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_twentyfive"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_twentysixthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_twentysix"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_twentyseventhChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_twentyseven"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_twentyeighthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_twentyeight"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_twentyninthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_twentynine"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thiriethChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_thirty"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thirtyfirstChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_thirtyone"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thirtysecondChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_thirtytwo"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thirtythirdChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_thirtythree"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thirtyfourthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_thirtyfour"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thirtyfifthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_thirtyfive"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thirtysixthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_thirtysix"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thirtyseventhChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_thirtyseven"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thirtyeighthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_thirtyeight"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_thirtyninthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_thirtynine"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_fortiethChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_forty"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_fortyfirstChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_fortyfirst"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_fortysecondChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_fortytwo"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_fortythirdChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_fortythree"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_fortyfourthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_fortyfour"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_fortyfifthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_fortyfive"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_fortysixthChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_fortysixth"
+                android:textColor="#795548" />
+
+            <Button
+                android:id="@+id/button_language_fortyseventhChar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_placeholderText_alphabet_fortyseven"
+                android:textColor="#795548" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Space
+        android:id="@+id/spaceAbove_alphabet"
+        android:layout_width="match_parent"
+        android:layout_height="207dp" />
+
+
+</LinearLayout>

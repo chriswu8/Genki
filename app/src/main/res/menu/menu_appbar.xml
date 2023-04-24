@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItem_actionbar_hiragana"
+        android:title="@string/lessons_hiraganaChart" />
+    <item
+        android:id="@+id/menuItem_actionbar_katakana"
+        android:title="@string/lessons_katakanaChart" />
+    <item
+        android:id="@+id/menuItem_actionbar_about"
+        android:title="@string/lessons_about" />
+</menu>
